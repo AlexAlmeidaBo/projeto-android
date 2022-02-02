@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #84e1ad; 
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(25,90,54,1) 0%, rgba(60,215,130,1) 100%);
+    color: #fff;
+}
+
+.cabecalho-titulo{
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    padding: 40px;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.cabecalho-subtitulo{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cabecalho-menu{
+    display: flex;
+    width: 100%; 
+}
+
+.cabecalho-menu-itens{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    padding: 30px 0 10px 0 ;
+    
+}
+
+.itens{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 30px ;  
+    padding: 10px; 
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+.itens:hover{
+    background-color: #2fa866;
+    color:#1a5c37 ;
+}
+
+/*Conteudo Principal*/
+
+.conteudo{
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+}
+
+.conteudo img{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.conteudo p {
+    margin: 15px 0;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.conteudo-principal{
+    padding: 20px;
+}
+
+.conteudo-principal  a ,strong {
+    color: #2fa866;
+    text-decoration: none;
+    font-weight: bold;
+    background-color:#c5ebd6 ;
+    padding: 2px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Android';
+    color: #1a5c37;
+    margin-bottom: 10px;
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Android';
+    margin: 20px 0;
+    background: linear-gradient(90deg, rgba(140,227,179,1) 0%, rgba(160,233,194,1) 4%, rgba(255,255,255,1) 85%);
+    color: #1a5c37;
+    padding-left: 10px;
+}
+
+main .imagem-bugdroid{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.container-video{
+    background: #1a5c37 ;
+    margin: -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+.conteudo-video{
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 86.5%;
+    position: absolute;
+}
+
+.conteudo-secundario{
+    background-color: #c5ebd6;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.conteudo-secundario-titulo{
+    background: #2fa866;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.conteudo-secundario-paragrafo{
+    padding: 10px;
+}
+
+.conteudo-secundario-lista{
+    list-style-type:'\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 20px;
+}
+
+.rodape{
+    background: #1a5c37;
+    padding: 3px;
+    color: white;
+    text-align: center;
+}
+
